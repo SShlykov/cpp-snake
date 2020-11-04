@@ -1,11 +1,12 @@
 #ifndef _macros_h
 #define _macros_h
 
-#define MAP_WIDTH 20
-#define MAP_HEIGHT 20
-#define MAP_CHAR '.'
-#define MAP_END 30
-#define SNAKE_CHAR 'O'
+#define MAP_WIDTH 40
+#define MAP_HEIGHT 40
+#define MAP_CHAR '-'
+#define MAP_END 50
+
+#define SNAKE_CHAR 'S'
 #define SNAKE_HEAD_WEST '>'
 #define SNAKE_HEAD_NORTH 'v'
 #define SNAKE_HEAD_EAST '<'
@@ -14,6 +15,6 @@
 
 #define INITIAL_SNAKE_LENGTH 3
 
-#define PAUSE_LENGTH 1000 * 200 // 200 milliseconds
+#define PAUSE_LENGTH 1000 * 20
 
 #endif

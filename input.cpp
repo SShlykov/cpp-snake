@@ -56,7 +56,6 @@ enum Direction get_input()
             break;
         default:
             result = Error;
-//            cout << "Incorrect button clicked(" << user_input << ")" << endl;
             break;
     }
     return result;
